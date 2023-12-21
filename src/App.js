@@ -18,21 +18,21 @@ function App() {
     <div>
       <Header />
       <Routes>      
-        <Route path='/header' element={<Header />} />
+        {/* <Route path='/header' element={<Header />} /> */}
         <Route path='/herosection' element={<HeroSection />} />
         {/* <Route path='/projects' element={<Projects />} /> */}
         {/* <Route path='/contact' element={<Contact />} /> */}
         <Route path='/buyer' element={<buyerReview />} />
-        <Route path='/footer' element={<Footer />} />
+        {/* <Route path='/footer' element={<Footer />} /> */}
       </Routes>
 
    
       <HeroSection />
-      <BooksSection />
+      {/* <BooksSection /> */}
       {/* <Projects /> */}
   
       {/* <Contact /> */}
-      <Footer />
+      {/* <Footer /> */}
       {/* {buyerReview} */}
       {/* {sellerReview} */}
     </div>
